@@ -5,6 +5,7 @@ html, body{
     animation-duration: 2s;
     font-family: sans-serif;
     line-height: 1.2;
+    text-transform: lowercase;
 }
 
 @keyframes fadeIn{
@@ -32,12 +33,12 @@ html, body{
 }
 
 .page,
-.manual{
+.links{
     width: 50%;
     padding: 15px;
 }
 
-.manual{
+.links{
     text-align: right;
 }
 
@@ -45,6 +46,10 @@ html, body{
     padding: 15px;
     margin: 0;
     font-size: 32px;
+}
+
+.project-description p span{
+    text-transform: uppercase;
 }
 
 .index-wrapper{
@@ -91,7 +96,7 @@ img{
     object-fit: cover;
 }
 
-.tlov-thumb
+.thumb
 {
     display: none;
     position: fixed;
@@ -103,6 +108,6 @@ img{
     text-align: center;
 }
 
-.tlov:hover + .tlov-thumb{
+.thumb-wrapper:hover + .thumb{
     display: block;
 }
