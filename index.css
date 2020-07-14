@@ -84,6 +84,7 @@ a{
     text-transform: uppercase;
     transition: 0.3s;
     opacity: 0.5;
+    word-break: break-all;
 }
 
 a:hover{
